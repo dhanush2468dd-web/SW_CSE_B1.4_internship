@@ -1,10 +1,32 @@
-if(true){
-let secret = "Password@123"; 
-console.log(secret); 
+var x = 10;
+var x = 20;
+x = 30;
+console.log(x)
+
+if (true) {
+var message = "Hello";
 }
 
-if(true){
-    const pi = 3.14159;
+console.log(message);
 
-    console.log(pi);
-}   
+let score = 100;
+score = 160; 
+console.log(score);
+
+const pi=3.14159;
+console.log(pi);
+
+function test() {
+    if (true) {
+        var a = 10;
+        let b = 20;
+        const c = 30;
+
+        console.log(a);
+        console.log(b);
+        console.log(c);
+
+    }
+    
+}
+test();
