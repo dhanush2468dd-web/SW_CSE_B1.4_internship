@@ -1,9 +1,9 @@
-import StateThree from "./components/StateThree";
+import EventHandling from "./components/EventHandling";
 
 function App() {
   return (
     <>
-      <StateThree />
+      <EventHandling />
     </>
   );
 }
