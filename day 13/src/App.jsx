@@ -1,24 +1,11 @@
-import { LeftArrow,RightArrow } from "./components/FunctionalComponentTwo";
-
-import ProfileList from "./components/Props";
-import InfoBoxDemo from "./components/PropsTwo";
-
-import './App.css'
-
-const name = "Amay";
-const isLoggedIn = false;
+import StateTwo from "./components/StateTwo";
 
 function App() {
-
- <RightArrow />
-
-      <ProfileList />
-
-      <InfoBoxDemo />
+  return (
+    <>
+      <StateTwo />
     </>
-
-  )
- 
+  );
 }
 
-export default App
+export default App;
