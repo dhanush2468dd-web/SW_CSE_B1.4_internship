@@ -1,9 +1,9 @@
-import StateTwo from "./components/StateTwo";
+import State from "./components/State";
 
 function App() {
   return (
     <>
-      <StateTwo />
+      <State />
     </>
   );
 }
