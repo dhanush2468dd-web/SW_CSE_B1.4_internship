@@ -1,9 +1,9 @@
-import EventHandlingTwo from "./components/EventHandlingTwo";
+import EventHandlingThree from "./components/EventHandlingThree";
 
 function App() {
   return (
     <>
-      <EventHandlingTwo />
+      <EventHandlingThree />
     </>
   );
 }
