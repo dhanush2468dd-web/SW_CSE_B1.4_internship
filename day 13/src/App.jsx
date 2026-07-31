@@ -1,30 +1,19 @@
-const name = "Amay";
-const isLoggedIn = false;
+import Button from "./components/FunctionalComponent";
+import { LeftArrow, RightArrow } from "./components/FunctionalComponentTwo";
 
 function App() {
- 
+  const name = "Amay";
+  const isLoggedIn = false;
+
   return (
-    // React Fragments
     <>
-      {/* JSX Rule 1: Return one parent element */}
-      <h1>Hello</h1>
-      <p>Hello again</p>
+      <p>{isLoggedIn ? "Welcome Back" : "Please Login"}</p>
 
-      {/* JSX Rule 2: Every tag must be closed properly */}
-      <p>Error</p>
-      <input type="text" />
-
-      {/* JSX Rule 3: use camelCase for attributes */}
-      <button onClick onSubmit>Click</button>
-
-      {/* JSX Rule 4: Embedding JavaScript with curly braces */}
-      <h3>Hello, {name}</h3>
-
-      {/* JSX Rule 5: use expressions, not statements */}
-      <p>{isLoggedIn ? "Welcome back" : "Please Login"}</p>
+      <Button />
+      <LeftArrow />
+      <RightArrow />
     </>
-    
-  )
+  );
 }
 
-export default AppDay13 react project: Fragments & JSX Rules
+export default App;
