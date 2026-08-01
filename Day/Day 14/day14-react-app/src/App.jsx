@@ -1,12 +1,14 @@
 import './App.css'
 import SimpleList from "./components/ListOne";
-function App() {
-  
-  return (
-    <>
-      <SimpleList />
-    </>
-  )
-}
+import UserList from "./components/ListTwo";
 
-export default App
+function App() {
+
+return (
+<>
+      <SimpleList />
+      {/* <SimpleList /> */}
+      <UserList />
+</>
+)
+}
