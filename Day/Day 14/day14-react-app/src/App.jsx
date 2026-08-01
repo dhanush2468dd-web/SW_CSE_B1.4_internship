@@ -10,6 +10,8 @@ import SignupForm from "./components/FormTwo";
 import ValidatedForm from "./components/FormThree";
 import GitHubUsersList from "./components/FetchingData";
 import GitHubProfile from "./components/FetchingDataTwo";
+import GitHubRepoCount from "./components/FetchingDataThree";
+
 function App() {
 
 return (
@@ -23,10 +25,11 @@ return (
 {/* <ThemeProviderDemo /> */}
 {/* <SimpleNameForm /> */}
 {/* <SignupForm /> */}
-      <ValidatedForm/>
-      {/* <ValidatedForm/> */}
-      {/* <GitHubUsersList/> */}
+{/* <ValidatedForm/> */}
+{/* <GitHubUsersList/> */}
       <GitHubProfile/>
+      {/* <GitHubProfile/> */}
+      <GitHubRepoCount username="rakeshdotkr" />
 </>
 )
 }
