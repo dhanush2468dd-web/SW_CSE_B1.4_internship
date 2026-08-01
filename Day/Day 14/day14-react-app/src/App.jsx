@@ -9,19 +9,24 @@ import SimpleNameForm from "./components/FormOne";
 import SignupForm from "./components/FormTwo";
 
 
+import ValidatedForm from "./components/FormThree";
 function App() {
-return (
-  <>
-)
-     <CounterHook/> 
-<UserListHook/> 
- <ThemeProviderDemo /> 
-  <SimpleNameForm />
- <SimpleNameForm /> 
-      <SignupForm />
-</>
-);
 
+return (
+<>
+{/* <SimpleList />
+     <UserList />
+     <ProductListDemo />
+
+     <CounterHook/> */}
+{/* <UserListHook/> */}
+{/* <ThemeProviderDemo /> */}
+{/* <SimpleNameForm /> */}
+      <SignupForm />
+      {/* <SignupForm /> */}
+      <ValidatedForm/>
+</>
+)
 }
 
-export default App;
+export default App
