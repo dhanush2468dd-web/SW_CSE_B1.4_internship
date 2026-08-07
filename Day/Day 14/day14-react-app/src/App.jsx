@@ -29,7 +29,7 @@ return (
 {/* <GitHubUsersList/> */}
       <GitHubProfile/>
       {/* <GitHubProfile/> */}
-      <GitHubRepoCount username="rakeshdotkr" />
+      <GitHubRepoCount username="dhanushdotd" />
 </>
 )
 }
